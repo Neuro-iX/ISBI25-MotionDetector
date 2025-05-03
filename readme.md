@@ -1,6 +1,6 @@
 # Improving Quality Control of MRI Images Using Synthetic Motion Data
 
-This repo contains the code to reproduce the results presented in our ISBI25 article (submitted)
+This repo contains the code to reproduce the results presented in our ISBI25 article (accepted)
 
 - [Improving Quality Control of MRI Images Using Synthetic Motion Data](#improving-quality-control-of-mri-images-using-synthetic-motion-data)
   * [Structure](#structure)
