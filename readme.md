@@ -5,6 +5,7 @@ This repo contains the code to reproduce the results presented in our ISBI25 art
 - [Improving Quality Control of MRI Images Using Synthetic Motion Data](#improving-quality-control-of-mri-images-using-synthetic-motion-data)
   * [Structure](#structure)
   * [Source code](#source-code)
+  * [Weights](#weights)
   * [Reproducing](#reproducing)
     + [Datasets](#datasets)
     + [Training](#training)
@@ -40,6 +41,10 @@ Inside the `src` folder, you will find :
 - `training` : lightning modules containing the logic for each training setting (pretraining, transfer learning and training from scratch). Also contains base class containing common logic that you can extend for your own setting.
 - `transforms` : two files containing data pipeline to generate data (synthetic data) and load data for training.
 - `utils` :  some common utilities
+
+## Weights
+
+All weights (pretrain, transfer and scratch) are available on [Zenodo](https://zenodo.org/records/15334558).
 
 ## Reproducing
 
